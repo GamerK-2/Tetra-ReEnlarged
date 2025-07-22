@@ -5,8 +5,8 @@
     "rarity": "temporary",
     "displayType": "minor",
     "glyph": {
-        "textureX": 147,
-        "textureY": 16
+        "textureX": 144,
+        "textureY": 112
     },
     "requirement": {
         "type": "tetra:locked",

@@ -13,7 +13,7 @@
                 "durability": 0.04,
                 "glyph": {
                     "textureX": 14,
-                    "textureY": 16
+                    "textureY": 112
                 },
                 "availableTextures": [ "default" ],
                 "models": [ { "location": "tetra:item/module/greatsword/pommel/decorative_pommel/" } ]

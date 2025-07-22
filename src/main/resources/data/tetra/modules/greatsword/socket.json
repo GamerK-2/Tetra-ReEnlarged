@@ -22,7 +22,7 @@
             "glyph": {
                 "tint": "diamond",
                 "textureX": 80,
-                "textureY": 16
+                "textureY": 112
             },
             "models": [
                 {
@@ -39,7 +39,7 @@
             "glyph": {
                 "tint": "emerald",
                 "textureX": 80,
-                "textureY": 16
+                "textureY": 112
             },
             "models": [
                 {
@@ -59,7 +59,7 @@
             "glyph": {
                 "tint": "lapis",
                 "textureX": 80,
-                "textureY": 16
+                "textureY": 112
             },
             "models": [
                 {
@@ -79,7 +79,7 @@
             "glyph": {
                 "tint": "f29000",
                 "textureX": 80,
-                "textureY": 16
+                "textureY": 112
             },
             "models": [
                 {
@@ -109,7 +109,7 @@
             "glyph": {
                 "tint": "diamond",
                 "textureX": 80,
-                "textureY": 16
+                "textureY": 112
             },
             "models": [
                 {
@@ -126,7 +126,7 @@
             "glyph": {
                 "tint": "emerald",
                 "textureX": 80,
-                "textureY": 16
+                "textureY": 112
             },
             "models": [
                 {
@@ -146,7 +146,7 @@
             "glyph": {
                 "tint": "lapis",
                 "textureX": 80,
-                "textureY": 16
+                "textureY": 112
             },
             "models": [
                 {
@@ -164,7 +164,7 @@
             "glyph": {
                 "tint": "c16bc8",
                 "textureX": 80,
-                "textureY": 16
+                "textureY": 112
             },
             "models": [
                 {
