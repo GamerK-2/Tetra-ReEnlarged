@@ -1,5 +1,5 @@
 {
-    "tetra.holo.craft.modular.greatsword": "Greatsword",
+    "tetra.holo.craft.modular_greatsword": "Greatsword",
 
     "tetra.slot.greatsword/blade": "Blade",
     "tetra.slot.greatsword/hilt": "Hilt",
@@ -146,7 +146,7 @@
     "tetra.variant.greatsword_socket/socket_shard_of_malice": "Socket [§cshard of malice§r]",
     "tetra.variant.greatsword_socket/socket_ender_pearl": "Socket [§3ender pearl§r]",
 
-
+    "tetra.variant.greatsword_socket/socket_round_ruby": "Socket [§cround ruby§r]",
 
     "tetra/schematic/greatsword/counterweight.name": "Counterweight",
     "tetra/schematic/greatsword/counterweight.description": "Balance the blade with a counterweight. Increases the attack speed by §f0.15§r, this bonus is reduced by §f0.05§r for each point of difference between the total integrity use and the effect level.",
