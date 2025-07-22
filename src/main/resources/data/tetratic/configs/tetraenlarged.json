@@ -16,27 +16,6 @@
           }
         }
       },
-      "greatsword/executioner_blade": {
-        "config": {
-          "attributes": {
-            "parent": "bettercombat:claymore"
-          }
-        }
-      },
-      "greatsword/bastard_blade": {
-        "config": {
-          "attributes": {
-            "parent": "bettercombat:claymore"
-          }
-        }
-      },
-      "greatsword/flamberge_blade": {
-        "config": {
-          "attributes": {
-            "parent": "bettercombat:claymore"
-          }
-        }
-      },
       "greatsword/odachi_blade": {
         "config": {
           "attributes": {

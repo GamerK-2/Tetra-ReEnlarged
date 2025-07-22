@@ -8,7 +8,7 @@
         },
         "models": [
             {
-                "location": "tetra:items/module/greatsword/blade/odachi_blade/improvements/tempered",
+                "location": "tetra:item/module/greatsword/blade/odachi_blade/improvements/tempered",
                 "tint": "inherit"
             }
         ]
@@ -22,7 +22,7 @@
         },
         "models": [
             {
-                "location": "tetra:items/module/greatsword/blade/odachi_blade/improvements/tempered",
+                "location": "tetra:item/module/greatsword/blade/odachi_blade/improvements/tempered",
                 "tint": "inherit"
             }
         ]
@@ -36,7 +36,7 @@
         },
         "models": [
             {
-                "location": "tetra:items/module/greatsword/blade/odachi_blade/improvements/tempered",
+                "location": "tetra:item/module/greatsword/blade/odachi_blade/improvements/tempered",
                 "tint": "inherit"
             }
         ]

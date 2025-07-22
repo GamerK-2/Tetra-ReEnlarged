@@ -26,7 +26,7 @@
             },
             "durability": 0.1,
             "availableTextures": [ "wrap" ],
-            "models": [ { "location": "tetra:items/module/greatsword/hilt/basic/improvements/" } ]
+            "models": [ { "location": "tetra:item/module/greatsword/hilt/basic/improvements/" } ]
         }
     },
     {

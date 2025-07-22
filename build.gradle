@@ -130,6 +130,13 @@ dependencies {
     implementation fg.deobf("curse.maven:tetra-289712:${tetra_version}")
     implementation fg.deobf("curse.maven:mutil-351914:${mutil_version}")
 
+    implementation fg.deobf("curse.maven:art-of-forging-a-tetra-addon-596955:6510711")
+    implementation fg.deobf("curse.maven:cobweb-968456:6089406")
+    implementation fg.deobf("curse.maven:soul-fire-d-662413:6248077")
+    implementation fg.deobf("curse.maven:curios-309927:6418456")
+
+    implementation fg.deobf("curse.maven:secrets-of-forging-revelations-a-tetra-addon-864307:6778071")
+
     // spongepowered Mixin library for Forge.
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }

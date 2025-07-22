@@ -22,9 +22,9 @@ public class TetraReEnlarged
     public static final String MODID = "tetra_re_enlarged";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public TetraReEnlarged(FMLJavaModLoadingContext context)
+    public TetraReEnlarged()
     {
-        IEventBus modEventBus = context.getModEventBus();
+        final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         modEventBus.addListener(this::commonSetup);
 
