@@ -12,7 +12,7 @@
             "extract": {
                 "durability": 0.04,
                 "glyph": {
-                    "textureX": 14,
+                    "textureX": 16,
                     "textureY": 112
                 },
                 "availableTextures": [ "default" ],
