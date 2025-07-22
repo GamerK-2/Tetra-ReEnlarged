@@ -202,26 +202,6 @@
     "tetra.module.greatsword/crucible_blade.material_name": "%s crucible",
     "tetra.module.greatsword/crucible_blade.prefix": "%s",
 
-    "tetra/schematic/greatsword/bastard_blade.name": "Bastard blade",
-    "tetra/schematic/greatsword/bastard_blade.description": "Replace the current sword blade with a bastard blade, a practical sword.\n \nMaterial §fhardness§r increases §fdamage§r.",
-    "tetra/schematic/greatsword/bastard_blade.slot1": "Blade material",
-
-    "tetra.module.greatsword/bastard_blade.item_name": "Bastard Blade",
-    "tetra.module.greatsword/bastard_blade.name": "Bastard Blade",
-    "tetra.module.greatsword/bastard_blade.description": "A practical blade.",
-    "tetra.module.greatsword/bastard_blade.material_name": "%s bastard blade",
-    "tetra.module.greatsword/bastard_blade.prefix": "%s",
-
-    "tetra/schematic/greatsword/executioner_blade.name": "Executioner blade",
-    "tetra/schematic/greatsword/executioner_blade.description": "Replace the current sword blade with an executioner blade, a formidable sword.\n \nMaterial §fhardness§r increases §fdamage§r.",
-    "tetra/schematic/greatsword/executioner_blade.slot1": "Blade material",
-
-    "tetra.module.greatsword/executioner_blade.item_name": "Executioner blade",
-    "tetra.module.greatsword/executioner_blade.name": "Executioner blade",
-    "tetra.module.greatsword/executioner_blade.description": "A formidable blade.",
-    "tetra.module.greatsword/executioner_blade.material_name": "%s executioner blade",
-    "tetra.module.greatsword/executioner_blade.prefix": "%s",
-
     "tetra/schematic/greatsword/odachi_blade.name": "Odachi blade",
     "tetra/schematic/greatsword/odachi_blade.description": "Replace the current sword blade with an odachi blade, an honorable sword.\n \nMaterial §fhardness§r increases §fdamage§r.",
     "tetra/schematic/greatsword/odachi_blade.slot1": "Blade material",
@@ -234,5 +214,15 @@
 
     "tetra.module.greatsword/makeshift_guard.name": "Makeshift guard",
     "tetra.module.greatsword/makeshift_guard.description": "A sword guard, its weak construction provides little protection for the wielding hand.",
-    "tetra.module.greatsword/makeshift_guard.material_name": "Makeshift %s guard"
+    "tetra.module.greatsword/makeshift_guard.material_name": "Makeshift %s guard",
+
+    "tetra.module.greatsword/longsword_blade.item_name": "Longsword",
+    "tetra.module.greatsword/longsword_blade.name": "Longsword",
+    "tetra.module.greatsword/longsword_blade.description": "A longsword, a robust dual-handed blade.",
+    "tetra.module.greatsword/longsword_blade.material_name": "%s longsword",
+    "tetra.module.greatsword/longsword_blade.prefix": "%s",
+
+    "tetra/schematic/greatsword/longsword_blade.name": "Longsword blade",
+    "tetra/schematic/greatsword/longsword_blade.description": "Replace the current sword blade with a longsword blade.\n \nMaterial §fhardness§r increases §fdamage§r.",
+    "tetra/schematic/greatsword/longsword_blade.slot1": "Blade material"
 }
