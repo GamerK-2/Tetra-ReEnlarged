@@ -20,7 +20,7 @@ __You May__
 
 __You May With Permission__
 - Provide Pull Requests to update this repository
-- Offer to update this repository to add a new module into GUI from another mod (Make a Github issue or DM me on Discord)
+- Offer to update this repository to add a new module (Make a Github issue or DM me on Discord)
 
 __You May Not__
 - Reupload this project or repository on any other site under a new name or new author
