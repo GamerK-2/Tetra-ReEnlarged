@@ -126,15 +126,22 @@ dependencies {
     // The Minecraft version to target.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    // Tetra and its addons.
+    // Tetra
     implementation fg.deobf("curse.maven:tetra-289712:${tetra_version}")
     implementation fg.deobf("curse.maven:mutil-351914:${mutil_version}")
 
+    // Addons
     implementation fg.deobf("curse.maven:art-of-forging-a-tetra-addon-596955:${aof_version}")
     implementation fg.deobf("curse.maven:cobweb-968456:${cobweb_version}")
     implementation fg.deobf("curse.maven:soul-fire-d-662413:${soul_fire_d_version}")
     implementation fg.deobf("curse.maven:curios-309927:${curios_version}")
     implementation fg.deobf("curse.maven:secrets-of-forging-revelations-a-tetra-addon-864307:${sofr_version}")
+
+    // Better Combat mod - This is for TESTING ANIMATIONS
+    implementation fg.deobf("curse.maven:better-combat-by-daedelus-639842:5625757")
+    implementation fg.deobf("curse.maven:cloth-config-348521:5729105")
+    implementation fg.deobf("curse.maven:playeranimator-658587:4587214")
+    implementation fg.deobf("curse.maven:tetratic-combat-expanded-953635:6764394")
 
     // spongepowered Mixin library for Forge.
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'

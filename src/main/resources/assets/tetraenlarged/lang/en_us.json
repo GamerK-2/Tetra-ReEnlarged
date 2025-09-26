@@ -192,9 +192,9 @@
     "tetra.module.greatsword/flamberge_blade.material_name": "%s flamberge",
     "tetra.module.greatsword/flamberge_blade.prefix": "%s",
 
-    "tetra/schematic/greatsword/crucible_blade.name": "§cCrucible Blade§r",
-    "tetra/schematic/greatsword/crucible_blade.description": "Replace the current sword blade with a crucible blade.\n \nMaterial §fhardness§r increases §fdamage§r.",
-    "tetra/schematic/greatsword/crucible_blade.slot1": "Blade material",
+    "tetra/schematic/greatsword/crucible/crucible_blade.name": "§cCrucible Blade§r",
+    "tetra/schematic/greatsword/crucible/crucible_blade.description": "Replace the current sword blade with a crucible blade.\n \nMaterial §fhardness§r increases §fdamage§r.",
+    "tetra/schematic/greatsword/crucible/crucible_blade.slot1": "Blade material",
 
     "tetra.module.greatsword/crucible_blade.item_name": "Crucible",
     "tetra.module.greatsword/crucible_blade.name": "Crucible",

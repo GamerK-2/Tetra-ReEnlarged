@@ -22,8 +22,14 @@
             "parent": "bettercombat:katana"
           }
         }
+      },
+      "greatsword/longsword_blade": {
+        "config": {
+          "attributes": {
+            "parent": "bettercombat:claymore"
+          }
+        }
       }
-
     }
   }
 }
