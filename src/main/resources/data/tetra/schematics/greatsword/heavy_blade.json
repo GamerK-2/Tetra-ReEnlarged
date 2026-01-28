@@ -15,7 +15,8 @@
             "generic.attack_speed": -1
         },
         "primaryEffects": {
-            "sweeping": 2
+            "sweeping": 2,
+            "blocking": 2
         },
         "durability": 3,
         "integrity": -3,

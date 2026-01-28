@@ -3,6 +3,7 @@ package net.gamerk_2.tetra_re_enlarged.item;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.UseAnim;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.registries.ObjectHolder;
@@ -85,4 +86,5 @@ public class ModularLargeBladedItem extends ItemModularHandheld {
         }
         return null;
     }
+
 }

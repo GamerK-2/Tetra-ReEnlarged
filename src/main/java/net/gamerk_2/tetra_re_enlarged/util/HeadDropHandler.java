@@ -25,6 +25,7 @@ public class HeadDropHandler {
     @SubscribeEvent
     public static void onLivingDrops(LivingDropsEvent event) {
         Entity direct = event.getSource().getEntity();
+        if (direct == null) return;
         if (direct.level().isClientSide()) return;
         if (!(direct instanceof Player player)) return;
 
