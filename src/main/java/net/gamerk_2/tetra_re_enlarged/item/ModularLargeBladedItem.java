@@ -1,9 +1,13 @@
 package net.gamerk_2.tetra_re_enlarged.item;
 
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.level.Level;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.registries.ObjectHolder;
@@ -71,6 +75,22 @@ public class ModularLargeBladedItem extends ItemModularHandheld {
     }
 
     @Override
+    public void inventoryTick(ItemStack pStack, Level pLevel, Entity pEntity, int pSlotId, boolean pIsSelected) {
+        super.inventoryTick(pStack, pLevel, pEntity, pSlotId, pIsSelected);
+        if (!pLevel.isClientSide()) {
+            if ((pEntity instanceof Player player)) {
+                ItemStack heldItem = player.getMainHandItem();
+                if (heldItem != pStack) return;
+
+                String bladeModule = heldItem.getOrCreateTag().getString("greatsword/blade");
+                if (bladeModule.equals("greatsword/odachi_blade") &&  player.tickCount % 40 == 0) {
+                    player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 80, 1, true, false));
+                }
+            }
+        }
+    }
+
+    @Override
     public String getModelCacheKey(ItemStack itemStack, LivingEntity entity) {
         if (isBlocking(itemStack, entity)) {
             return super.getModelCacheKey(itemStack, entity) + ":blocking";
@@ -86,5 +106,4 @@ public class ModularLargeBladedItem extends ItemModularHandheld {
         }
         return null;
     }
-
 }
