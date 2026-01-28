@@ -2,6 +2,7 @@ package net.gamerk_2.tetra_re_enlarged;
 
 import com.mojang.logging.LogUtils;
 import net.gamerk_2.tetra_re_enlarged.item.ModularLargeBladedItem;
+import net.gamerk_2.tetra_re_enlarged.util.HeadDropHandler;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -29,6 +30,7 @@ public class TetraReEnlarged
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
+        MinecraftForge.EVENT_BUS.register(new HeadDropHandler());
 
         TetraReEnlargedRegistries.init(FMLJavaModLoadingContext.get().getModEventBus());
 

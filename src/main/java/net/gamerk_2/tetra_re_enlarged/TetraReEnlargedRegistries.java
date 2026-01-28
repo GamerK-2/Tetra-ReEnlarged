@@ -14,6 +14,5 @@ public class TetraReEnlargedRegistries {
         ITEMS.register(bus);
 
         ITEMS.register(ModularLargeBladedItem.identifier, ModularLargeBladedItem::new);
-
     }
 }
