@@ -38,13 +38,7 @@
                 },
                 "primaryEffects": {
                     "sweeping": 0.3,
-                    "blocking": 0.3
-                },
-                "secondaryEffects": {
-                    "blocking": -0.2
-                },
-                "tertiaryEffects": {
-                    "blocking": 0.3
+                    "blocking": 0.6
                 },
                 "durability": 1,
                 "integrity": -1,

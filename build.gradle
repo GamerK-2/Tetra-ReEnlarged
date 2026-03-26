@@ -137,6 +137,8 @@ dependencies {
     implementation fg.deobf("curse.maven:curios-309927:${curios_version}")
     implementation fg.deobf("curse.maven:secrets-of-forging-revelations-a-tetra-addon-864307:${sofr_version}")
 
+    implementation fg.deobf("curse.maven:tetra-gui-compat-1306774:7038397")
+
     // Better Combat mod - This is for TESTING ANIMATIONS
     implementation fg.deobf("curse.maven:better-combat-by-daedelus-639842:5625757")
     implementation fg.deobf("curse.maven:cloth-config-348521:5729105")
