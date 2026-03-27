@@ -13,7 +13,7 @@
             "materials": [ "tetra:metal/", "tetra:stone/", "tetra:wood/" ],
             "key": "heavy_blade/",
             "attributes": {
-                "generic.attack_speed": -1.7
+                "generic.attack_speed": -2.35
             },
             "aspects": {
                 "edged_weapon": 2,
@@ -30,7 +30,7 @@
             "integrity": -1,
             "extract": {
                 "primaryAttributes": {
-                    "generic.attack_damage": 0.8
+                    "generic.attack_damage": 1.35
                 },
                 "secondaryAttributes": {
                     "generic.attack_damage": 0.4,
@@ -40,7 +40,7 @@
                     "sweeping": 0.3,
                     "blocking": 0.6
                 },
-                "durability": 1,
+                "durability": 1.4,
                 "integrity": -1,
                 "magicCapacity": 1,
                 "glyph": {

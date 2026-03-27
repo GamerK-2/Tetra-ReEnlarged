@@ -13,10 +13,12 @@
             "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
             "key": "longsword_blade/",
             "attributes": {
-                "generic.attack_speed": -1.9
+                "generic.attack_speed": -2.2,
+                "generic.attack_damage": 0.5,
+                "generic.armor": 1.5
             },
             "effects": {
-                "sweeping": 1
+                "sweeping": [ 1.5, 0.5 ]
             },
             "tools": {
                 "cut": [ 1, 2 ]
@@ -28,9 +30,16 @@
             "durability": -20,
             "extract": {
                 "primaryAttributes": {
-                    "generic.attack_damage": 1
+                    "generic.attack_damage": 1.0
                 },
-                "durability": 0.9,
+                "secondaryAttributes": {
+                    "generic.attack_damage": 0.4,
+                    "generic.attack_speed": -0.15
+                },
+                "primaryEffects": {
+                    "sweeping": 0.25
+                },
+                "durability": 1.2,
                 "integrity": -1,
                 "magicCapacity": 1,
                 "glyph": {

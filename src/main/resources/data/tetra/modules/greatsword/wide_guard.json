@@ -10,11 +10,11 @@
             "integrity": -1,
             "attributes": {
                 "generic.armor": 1,
-                "generic.attack_speed": -0.1
+                "generic.attack_speed": -0.05
             },
             "extract": {
                 "primaryAttributes": {
-                    "generic.armor": 0.5
+                    "generic.armor": 0.4
                 },
                 "tertiaryAttributes": {
                     "generic.armor": 0.2

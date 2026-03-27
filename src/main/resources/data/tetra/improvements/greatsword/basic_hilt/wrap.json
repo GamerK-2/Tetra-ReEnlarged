@@ -7,7 +7,7 @@
         "group": "wrap",
         "integrity": -1,
         "attributes": {
-            "generic.attack_speed": 0.05,
+            "generic.attack_speed": 0.1,
             "**generic.attack_damage": 0.1
         },
         "effects": {

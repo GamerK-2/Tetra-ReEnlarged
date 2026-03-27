@@ -7,6 +7,10 @@
         "primaryAttributes": {
             "generic.attack_damage": 3
         },
+        "secondaryAttributes": {
+            "generic.attack_damage": 1,
+            "generic.attack_speed": -1
+        },
         "durability": 4,
         "integrity": -3,
         "magicCapacity": 3

@@ -84,7 +84,7 @@ public class ModularLargeBladedItem extends ItemModularHandheld {
 
                 String bladeModule = heldItem.getOrCreateTag().getString("greatsword/blade");
                 if (bladeModule.equals("greatsword/odachi_blade") &&  player.tickCount % 40 == 0) {
-                    player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 80, 1, true, false));
+                    player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 80, 0, true, false));
                 }
             }
         }

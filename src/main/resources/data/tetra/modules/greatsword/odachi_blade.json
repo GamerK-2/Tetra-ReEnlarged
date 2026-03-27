@@ -13,12 +13,13 @@
             "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
             "key": "odachi_blade/",
             "attributes": {
-                "generic.attack_speed": -1.5,
+                "generic.attack_speed": -2.0,
                 "generic.attack_damage": 0.7
             },
             "effects": {
                 "skewering": [ 1, 1 ],
                 "sweeping": 1,
+                "truesweep": 1,
                 "abilityMomentum": [ 10, 0.5 ]
             },
             "tools": {

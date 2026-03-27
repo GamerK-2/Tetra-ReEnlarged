@@ -7,7 +7,7 @@
             "materials": [ "tetra:metal/", "tetra:wood/", "tetra:bone/", "tetra:misc/forged_beam" ],
             "key": "reinforced_fuller/",
             "attributes": {
-                "generic.attack_speed": -0.1
+                "generic.attack_speed": 0.1
             },
             "durability": 100,
             "durabilityMultiplier": 1.1,
